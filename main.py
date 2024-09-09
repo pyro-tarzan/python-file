@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from getname import random_name
 from dotenv import load_dotenv
 import os
